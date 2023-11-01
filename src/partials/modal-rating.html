@@ -1,0 +1,76 @@
+<div class="modal-rating-wrapper">
+  <div class="modal rating">
+    <button class="rating-close-btn">
+      <svg class="rating-close-icon">
+        <use href="./img/icons.svg#icon-btn-x"></use>
+      </svg>
+    </button>
+    <form class="rating-form">
+      <span class="rating-text">Rating</span>
+      <div class="rate">
+        <span id="rating-choosed" class="rating-choosed">0</span>
+        <div class="rate-wrapper">
+          <input
+            class="rate-star"
+            type="radio"
+            id="star5"
+            name="rate"
+            value="5"
+          />
+          <label for="star5" title="text">5 stars</label>
+          <input
+            class="rate-star"
+            type="radio"
+            id="star4"
+            name="rate"
+            value="4"
+          />
+          <label for="star4" title="text">4 stars</label>
+          <input
+            class="rate-star"
+            type="radio"
+            id="star3"
+            name="rate"
+            value="3"
+          />
+          <label for="star3" title="text">3 stars</label>
+          <input
+            class="rate-star"
+            type="radio"
+            id="star2"
+            name="rate"
+            value="2"
+          />
+          <label for="star2" title="text">2 stars</label>
+          <input
+            class="rate-star"
+            type="radio"
+            id="star1"
+            name="rate"
+            value="1"
+          />
+          <label for="star1" title="text">1 star</label>
+        </div>
+      </div>
+      <input
+        class="rating-inp-e"
+        type="email"
+        name="email"
+        id="rating-email"
+        placeholder="Email"
+        required
+      />
+      <textarea
+        class="rating-inp-com"
+        name="comment"
+        id="rating-comment"
+        placeholder="Your comment"
+        rows="4"
+        required
+      ></textarea>
+      <button class="rating-submit" id="rating-submit-button" type="submit">
+        Send
+      </button>
+    </form>
+  </div>
+</div>

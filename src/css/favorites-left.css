@@ -1,0 +1,177 @@
+.contain-one {
+  border-radius: 20px;
+  background-color: var(--primary-fontcolor);
+  width: 100%;
+  max-width: 335px;
+  height: 188px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.ul-box-text-sect-one {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 20px;
+  margin-bottom: 6px;
+  padding-top: 20px;
+}
+.running-item {
+  background: rgb(108, 110, 114);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.running-icon {
+  fill: var(--primary-background-color);
+  stroke: rgba(244, 244, 244, 0.2);
+}
+
+.quote-text {
+  font-size: 24px;
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-weight: 500;
+  line-height: 1.33;
+  color: var(--primary-background-color);
+  list-style: none;
+  display: block;
+  font-family: Neue Montreal;
+}
+
+.commas-icon {
+  stroke-width: 1.6px;
+  fill: var(--primary-background-color);
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+.boxAutor {
+  margin-left: 90px;
+  margin-right: 40px;
+}
+
+.boxTextMidle-sect-one {
+  color: rgba(244, 244, 244, 0.6);
+  font-size: 14px;
+  font-weight: var(--primary-fontweight);
+  line-height: 1.28;
+  margin-bottom: 18px;
+}
+
+.boxTextDown-sect-one {
+  font-size: 16px;
+  font-weight: var(--primary-fontweight);
+  line-height: 1.5;
+  color: var(--primary-background-color);
+  text-align: left;
+  display: none;
+}
+
+/* todo DIV №2   */
+
+/* todo DIV №3   */
+
+.fluent-icon {
+  fill: #242424;
+  /* fill: rgba(244, 244, 244, 1); */
+  /* stroke: rgba(244, 244, 244, 0.2); */
+  /* background: var(--primary-fontcolor);
+  width: 34px;
+  height: 34px; */
+  border-radius: 50%;
+  display: block;
+
+}
+
+.hundr-minutes {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 6px;
+}
+
+.box-three-list {
+  display: flex;
+  color: var(--primary-fontcolor);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Neue Montreal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  list-style: none;
+}
+
+.box-three-down {
+  max-width: 314px;
+  min-height: 105px;
+  margin-left: 71px;
+  margin-right: 20px;
+}
+
+.text-daily-norm {
+  color: rgba(36, 36, 36, 0.6);
+  margin-bottom: 16px;
+}
+
+.text-the-world-health {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary-fontcolor);
+  white-space: nowrap;
+  font-family: Neue Montreal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: var(--primary-fontweight);
+  line-height: 1.28;
+}
+
+@media screen and (min-width: 768px) {
+  .boxTextDown-sect-one {
+    display: inline;
+  }
+
+  .box-three-down {
+    max-width: 270px;
+    margin-left: 90px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .text-daily-norm {
+    color: rgba(36, 36, 36, 0.6);
+    margin-bottom: 16px;
+  }
+  .text-the-world-health {
+    overflow: hidden;
+    color: var(--primary-fontcolor);
+    text-overflow: ellipsis;
+    font-family: Neue Montreal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: var(--primary-fontweight);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ul-box-text-sect-one {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 6px;
+    padding-top: 40px;
+  }
+  .commas-icon {
+    stroke-width: 1.6px;
+    fill: var(--primary-background-color);
+    width: 32px;
+    height: 32px;
+    margin-left: 80px;
+  }
+}
